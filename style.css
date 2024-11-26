@@ -1,0 +1,374 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    /* overflow: none; */
+    /* .hammersmith-one-regular { */
+    /* font-family: "Hammersmith One", sans-serif; */
+    /* font-weight: 400;
+        font-style: normal;
+      } */
+    font-family: "Rubik", sans-serif;
+    background-color: #20242d;
+
+
+}
+
+.nav1 {
+    width: auto;
+    height: 50px;
+    background-color: #0d0f13;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 20px;
+}
+
+.head1 {
+    color: #01effc;
+    margin-left: 80px;
+    font-size: 25px;
+    background-color: #0d0f13;
+}
+
+.list1 {
+    display: flex;
+    /* background-color: #0d0f13;  */
+}
+
+.list1 a {
+    padding: 35px;
+    color: aliceblue;
+    font-size: 17px;
+    background-color: #0d0f13;
+
+}
+
+.list1 a:hover {
+    padding: 35px;
+    color: #01effc;
+    font-size: 17px;
+    background-color: #0d0f13;
+
+}
+
+.list1 a li {
+    background-color: #0d0f13;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.search {
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px 40px;
+    margin-right: 100px;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.search:hover {
+    color: rgb(0, 0, 0);
+    background-color: #01effc;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 13px 40px;
+    margin-right: 100px;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.home1 {
+    width: 100%;
+    display: flex;
+}
+
+.card1 {
+    padding: 120px 100px 0px 150px;
+    width: 600px;
+    text-align: start;
+}
+
+.head2 {
+    font-size: 20px;
+    margin-bottom: 3px;
+    color: lavender;
+}
+
+.head3 {
+    font-size: 35px;
+    margin-bottom: 8px;
+    color: lavender;
+}
+
+.head4 {
+    font-size: 25px;
+    color: lavender;
+
+}
+
+.span1 {
+    color: #01effc;
+
+}
+
+.head5 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(218, 218, 255);
+
+}
+
+.image1 {
+    width: 350px;
+    height: 320px;
+    margin: 100px 0px 0px 50px;
+    animation: zoom-in-zoom-out 7s ease infinite;
+
+}
+
+.icons {
+    margin-top: 20px;
+    text-align: start;
+}
+
+.icons i {
+    font-size: 18px;
+    margin: 0px 20px 0px 0px;
+    color: #01effc;
+    border: 1px solid #01effc;
+    border-radius: 50px;
+    padding: 8px;
+}
+
+.icons i:hover {
+    font-size: 18px;
+    margin: 0px 20px 0px 0px;
+    color: initial;
+    border: 1px solid #01effc;
+    border-radius: 50px;
+    padding: 8px;
+    background-color: #01effc;
+}
+
+
+.cv {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #01effc;
+    padding: 13px 40px;
+    margin: 20px 0px 0px 5px;
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: #01effc 0px 2px 8px 0px;
+}
+
+.cv:hover {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+    background-color: lavender;
+    padding: 13px 40px;
+    margin: 20px 0px 0px 5px;
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: #01effc 0px 2px 8px 0px;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        scale: 100%;
+    }
+
+    50% {
+        scale: 110%;
+    }
+
+    100% {
+        scale: 100%;
+    }
+}
+
+.skilltitle {
+    justify-content: center;
+    color: #01effc;
+    display: flex;
+    margin: 100px 0px 20px 0px;
+    font-size: 35px;
+}
+
+.card3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.skill1 {
+    border: 1px solid #01effc;
+    margin: 0px 20px 120px 0px;
+    padding: 18px;
+    box-shadow: #01effc 0px 2px 8px 0px;
+}
+
+.skill1:hover {
+    border: 1px solid #01effc;
+    margin: 0px 20px 120px 0px;
+    padding: 18px;
+    box-shadow: #01effc 0px 2px 8px 0px;
+    animation: zoom-in 2s ease infinite;
+}
+
+@keyframes zoom-in {
+    0% {
+        scale: 100%;
+    }
+
+    50% {
+        scale: 110%;
+    }
+
+    100% {
+        scale: 100%;
+    }
+}
+
+.img1 {
+    width: 45px;
+    height: 50px;
+}
+
+.cardhead {
+    font-size: 18px;
+    margin-top: 20px;
+    color: rgb(218, 218, 255);
+
+}
+
+.card4 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: -100px;
+
+}
+
+.about {
+    font-size: 15px;
+    margin-top: 20px;
+    color: lavender;
+    text-align: start;
+    margin: 100px;
+
+}
+
+.span2 {
+    color: #01effc;
+}
+
+.skilltitle2 {
+    justify-content: start;
+    color: #01effc;
+    display: flex;
+    margin: 0px 0px -80px 105px;
+    font-size: 35px;
+}
+
+.Service {
+    font-size: 18px;
+    margin-top: 20px;
+    color: lavender;
+    text-align: start;
+    margin: 100px;
+}
+
+.skilltitle3 {
+    justify-content: center;
+    color: #01effc;
+    display: flex;
+    margin: 0px 0px -80px 0px;
+    font-size: 35px;
+}
+
+.Service ul li {
+    margin-top: 10px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.head6 {
+    justify-content: center;
+    color: #01effc;
+    display: flex;
+    font-size: 35px;
+}
+
+.form1 {
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+}
+
+.formicon {
+    margin: -10px 50px;
+    padding: 10px;
+    color: lavender;
+    border: 1px solid #01effc;
+    box-shadow: #01effc 0px 2px 8px 0px;
+
+}
+
+.formicon:hover {
+    margin: -10px 50px;
+    padding: 10px;
+    color: #01effc;
+    border: 1px solid #01effc;
+    box-shadow: #01effc 0px 2px 8px 0px;
+    animation: zoom-in 2s ease infinite;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid #01effc;
+    height: 350px;
+    margin-top: 100px;
+}
+.foot1{
+    border: 1px solid #01effc;
+    box-shadow: #01effc 0px 2px 8px 0px;
+}
+.foot1{
+    padding: 20px 20px;
+    margin: 10px;
+    display: flex;  
+}
+.list2 a{
+    color: aliceblue;
+    font-size: 18px;
+    margin: 10px;
+    
+}
+.list2 a:hover{
+    color: #01effc;
+    font-size: 18px;
+    margin: 20px;
+}
+.foot2{
+    display: block;
+    padding: 20px 20px;
+    margin: 10px;
+}
+.formicon1{
+    color: lavender;
+    border: 1px solid #01effc;
+    box-shadow: #01effc 0px 2px 8px 0px;
+    padding: 10px;
+    margin: 20px;
+}
